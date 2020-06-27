@@ -1,6 +1,6 @@
 # Criando as listas janela e corredor
-janela = [0] * 2
-corredor = [0] * 2
+janela = [0] * 23
+corredor = [0] * 23
 print(len(janela))
 print("Janela\n", janela, "\n\nCorredor\n", corredor)
 condicao = False
@@ -35,10 +35,9 @@ while not condicao:
                         print("\nPoltronas da Janela\n", janela)
                         print("As poltronas da janela já estão ocuapda por favor escolha corredor ou sair.")
                     else:
-                        poltrona = int(
-                            input("\nQual o número da poltrona que você deseja? (1-24)\n"))
+                        poltrona = int(input("\nQual o número da poltrona que você deseja? (1-24)\n"))
                         # Verificando poltrona - janela
-                        if poltrona >= 3 or poltrona <= 0:
+                        if poltrona >= 23 or poltrona <= 0:
                             print("Poltrona não existe, insira um valor válido")
                         elif janela[poltrona - 1] == 0:
                             print("\nVenda realizada com sucesso!\n")
