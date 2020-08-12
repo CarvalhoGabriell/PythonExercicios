@@ -15,7 +15,7 @@ while (cont <= 7):
         print(num, " Esse numero é multiplo de 3.")
         num_mult3 = num_mult3 + 1
     else:
-        print("Esse numero nao é multiplo de nenhum dos numeros")
+        print("Esse numero nao é multiplo nem 3 nem de 2.")
 
 print("Os numeros multiplos de 2 são ",num_mult2, "\n")
 print("Os numeros multiplos de 3 são ",num_mult3, "\n")
