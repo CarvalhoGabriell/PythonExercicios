@@ -75,8 +75,6 @@ while not condição:
                 lista_guarda_senha = [senha]
 
                 if lista_guarda_senha == ['']:
-
-
                     if escolha == 2:
                         # Acesso permitido
                         senha = input("\nSenha: ")
